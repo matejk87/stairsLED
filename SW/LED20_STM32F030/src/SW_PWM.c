@@ -13,7 +13,7 @@
 
 #define SET_OUT(A,B) set_output_led(A,B)
 
-#define PWM_SS_SLOPE    1
+#define PWM_SS_SLOPE    10 // duty increase  per 20ms  (n/20ms)
 
 #define PWM_CHANNELS    MAX_N_OF_LEDS
 #define PWM_FREQ        60
